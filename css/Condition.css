@@ -9,10 +9,11 @@ body {
     display: block;
 }
 
-h2 {
+body h2 {
     background-color: blue;
     color: white;
     text-align: center;
+    height: 3em;
 }
 
 header {
@@ -21,4 +22,22 @@ header {
 
 body menu a{
     text-align:justify;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 1vw;
+    
+}
+
+footer {
+    background-color: #0070D1;
+}
+
+.objet , .Acces , .propriete , .collecte , .modif , .responsabilite , .lien , .resiliation , .loi , .contact{
+    background-color: lightgray;
+    height: 50px;
 }
