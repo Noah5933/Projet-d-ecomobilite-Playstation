@@ -10,7 +10,7 @@ body {
 }
 
 body h2 {
-    background-color: blue;
+    background-color: #0070D1;
     color: white;
     text-align: center;
     height: 3em;
@@ -30,14 +30,20 @@ footer {
 
 footer a {
     margin-left: 1vw;
-    
+    color:white; 
 }
 
 footer {
     background-color: #0070D1;
+    
 }
 
 .objet , .Acces , .propriete , .collecte , .modif , .responsabilite , .lien , .resiliation , .loi , .contact{
     background-color: lightgray;
     height: 50px;
+    text-decoration: underline;
+}
+
+.pfp , .connexion {
+    text-align: left;
 }
