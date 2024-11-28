@@ -43,7 +43,7 @@ footer {
     height: 50px;
     text-decoration: underline;
 }
-
-.pfp , .connexion {
-    text-align: left;
+.connexion {
+    display: flex;
+    justify-content: flex-end;
 }

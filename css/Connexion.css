@@ -1,0 +1,21 @@
+body h1 {
+    align-items:flex-end;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
