@@ -3,19 +3,28 @@ body h1 {
 
 }
 
-form {
+form, button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-color: black;
+    border-radius: 10%;
+
 }
 
 body {
     flex-direction: column;
-}
+    background-image: url("../Image/images.jpeg");
+}   
 
 footer {
     display: flex;
-    justify-content: right;
-    align-items: flex-end;
+    position: absolute;
+    bottom: 1vw;
 }
 
+form {
+    margin-top: 25vh;
+}

@@ -2,8 +2,17 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
 
-a {
-    align-items: flex-end;
+body a {
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+header {
+    background-color: black;
 }
