@@ -7,8 +7,6 @@ body {
 
 body a {
     align-items: center;
-    text-decoration: none;
-    color:black;
     flex-direction: column;
     margin-top: 50px;
 }
@@ -16,3 +14,13 @@ body a {
 header {
     background-color: black;
 }
+
+footer {
+    background-color: #0070D1;
+}
+
+footer a {
+    margin-left: 1vh;
+    color:white; 
+}
+

@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 1vw;
+    color:white; 
+}
+
+footer {
+    background-color: #0070D1;
+    
+}
+
+body h3 {
+    background-color: lightgray;
+}

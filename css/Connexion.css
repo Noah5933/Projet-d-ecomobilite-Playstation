@@ -9,7 +9,7 @@ form, button {
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    border-color: black;
+    border-color: red;
     border-radius: 10%;
 
 }
@@ -27,4 +27,8 @@ footer {
 
 form {
     margin-top: 25vh;
+}
+
+fieldset {
+    border-color: red;
 }
