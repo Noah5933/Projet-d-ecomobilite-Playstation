@@ -24,7 +24,7 @@ header{
     margin-right: 35px ;
 }
 
-.Bouh{
+.liste{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -62,8 +62,31 @@ header a:hover{
     color: #0070D1;
 }
 
+.location-titre{
+    text-align: center;
+    font-size: x-large;
+    border: gray 2px solid;
+    margin-top: 0px;
+    color: black; 
+}
+
+
 body{
-    background-image: url(../Image/images.jpeg);
+    background-image: url(../Image/images.jpeg)
+}
+
+.location-titre{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 1px 7px black;
+    
+}
+
+section{
+    background-color: white;
+    border: solid black 2px;
 }
 
 footer{

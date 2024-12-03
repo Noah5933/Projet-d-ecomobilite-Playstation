@@ -9,7 +9,8 @@ header{
 
 .logo-connexion {
     display: flex;
-    
+    width: 50px;
+    margin: 15px 10px 10px 10px;
 }
 
 .navtop-wrapper{
@@ -23,9 +24,11 @@ header{
     margin-right: 35px ;
 }
 
-.Bouh{
+.liste{
     width: 100%;
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
 }
 
 .navright {
@@ -39,10 +42,6 @@ header{
     margin: 5px 0 0 5px;
 }
 
-.logo-connexion {
-    width: 50px;
-    margin: 15px 10px 10px 10px;
-}
 
 .bouton{
     background-color: #0070D1;
@@ -51,15 +50,10 @@ header{
 }
 
 .banderole{
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     padding: 4px;
     font-size:x-large;
-    background-color: white;
-}
-
-
-header a{
     color: black;
     text-decoration: none;
 }
