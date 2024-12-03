@@ -1,0 +1,112 @@
+.bloc1 , .bloc2 , .bloc3 {
+    display: flex;
+}
+
+.bloc1un {
+    margin-left: 2%;
+    width: 500vw;
+}
+
+.bloc1deux {
+    width: 500vw;
+    margin-right: 2%;
+}
+
+.bloc2un {
+    width: 500vw;
+    margin-left: 2%;
+}
+
+.bloc2deux {
+    margin-right: 2%;
+    width: 500vw;
+}
+
+.bloc3un {
+    margin-left: 2%;
+    width: 500vw;
+}
+
+.bloc3deux {
+    width: 500vw;
+    margin-right: 2%;
+}
+
+.premiereImage {
+    width: 100%;
+}
+
+.deuxiemeImage {
+    width: 100%;
+}
+
+.troisiemeImage {
+    width: 50%;
+}
+
+header{
+    border:solid black 2px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    background-color: white;
+    height: 110px;
+    padding-bottom: 2px;
+}
+
+.logo-connexion {
+    display: flex;
+    
+}
+
+.navtop-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navleft {
+    width: 6%;
+}
+
+.Bouh{
+    width: 100%;
+    background-color: #0070D1;
+}
+
+.navright {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+.logo-playstation {
+    margin: 5px 0 0 5px;
+}
+
+.logo-connexion {
+    width: 50px;
+    margin: 15px 10px 10px 10px;
+}
+
+.banderole{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 3px;
+    margin-bottom: -10px;
+    border: 2px solid black;
+    font-size:x-large;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 1vw;
+    color:white; 
+}
+
+footer {
+    background-color: #0070D1;
+}
