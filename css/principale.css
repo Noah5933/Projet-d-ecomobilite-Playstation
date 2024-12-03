@@ -8,10 +8,40 @@ header{
     padding-bottom: 2px;
 }
 
-.connexion{
+.logo-connexion {
     display: flex;
-    float:right
+    
+}
 
+.navtop-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navleft {
+    width: 6%;
+    margin-right: 35px ;
+}
+
+.Bouh{
+    width: 100%;
+    background-color: #0070D1;
+}
+
+.navright {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 0 0;
+}
+
+.logo-playstation {
+    margin: 5px 0 0 5px;
+}
+
+.logo-connexion {
+    width: 50px;
+    margin: 15px 10px 10px 10px;
 }
 
 .banderole{
@@ -35,7 +65,7 @@ header a:hover{
 }
 
 body{
-    background-image: url(../img/images.jpeg);
+    background-image: url(../Image/images.jpeg);
 }
 
 section{
@@ -51,12 +81,12 @@ section{
     
 }
 
-#covoiturage{
+.covoiturage{
     background-color: #0070D1;
     display: flexbox;
 }
 
-#covoiturage>h3{
+.covoiturage-titre{
     text-align: center;
     font-size: x-large;
     border: gray 2px solid;
@@ -70,31 +100,53 @@ section{
     background-color: white;
 }
 
+.location-titre{
+    text-align: center;
+    font-size: x-large;
+    border: gray 2px solid;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    
+}
+
 #trajets{
     background-color:#0070D1;
+}
+
+.trajet-titre{
+    text-align: center;
+    font-size: x-large;
+    border: gray 2px solid;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    
 }
 
 footer{
     position: sticky;
     bottom: 10px;
-    display: flex;
     border:3px solid black;
     background-color: #0070D1;
-    flex-direction:row;
-    justify-content: space-evenly;
-    padding: 5px;
+    padding: 3%;
+    margin-bottom: -2%;
 }
 
-footer>h6{
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    gap: 5%;
     color: white;
 }
 
-footer h6:hover{
+footer a:hover{
     color: #98c2e7;
 }
-
-footer>img{
+.footer-left{
     border: black solid 2px;
-    padding: 0%;
-    margin: 0%;
+    display: inline;
+    float: left;
 }
