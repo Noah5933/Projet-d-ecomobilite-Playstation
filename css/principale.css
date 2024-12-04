@@ -1,10 +1,11 @@
 header{
     position: sticky;
-    top: 10px;
+    top: 0px;
     align-items: center;
     background-color: white;
     height: 110px;
     padding-bottom: 2px;
+    border: 1px solid black;
 }
 
 .logo-connexion {
@@ -67,7 +68,7 @@ body{
 }
 
 section{
-    border: solid black 2px;
+    border: solid black 1px;
 }
 
 #corps h1{
@@ -142,9 +143,9 @@ section{
 }
 
 footer{
-    position: sticky;
-    bottom: 10px;
-    border:3px solid black;
+    position: relative;
+    bottom: 0px;
+    border:2px solid black;
     background-color: #0070D1;
     height: 102px;
 }
