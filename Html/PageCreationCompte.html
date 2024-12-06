@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-
 <head>
-    <title>Creer un compte</title>
+	<meta charset="UTF-8">
+	<title>Créer un compte - Playstation</title>
+	<link rel="stylesheet" href="../css/Connexion.css">
 </head>
-
 <body>
-
+    <h1><img src="../Image/PlayStation-Embleme.png" width="100px">Création de compte</h1>
+    <form action= "PagePrincipale.html"   name="form1">
+        <ul>
+            <fieldset>
+                <li>
+                    <label>
+                      Courriel: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp; 
+                      <input type="email" id="email" name="email" placeholder="Votre adresse mail" pattern=".+\..+\.etu@univ-lille.fr" title="Uniquement des emails !" required>
+                    </label>
+                  </li>
+            <li>
+                <label for="auteur_prenom">mot de passe:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                <input type="text" id="mdp" name="mdp" placeholder="Votre mot de passe" title="40 caractères maximum" required>
+              </li>
+              <li>
+                <label for="auteur_prenom">Confirmation du mot de passe&nbsp;: </label>
+                <input type="text" id="mdp" name="mdp" placeholder="Confirmer votre mot de passe" title="40 caractères maximum" required>
+              </li>
+            </fieldset>
+        </ul>
+        <li class="bouton">
+            <button type="submit">Créer</button>
+            <input id="prodId" name="prodId" type="hidden" value="zx589q4312pm">
+    </form>
 </body>
-
-</html>
+<footer>
+    <a href="Aide_plan.html">Aide/plan du site</a>
+</footer>
