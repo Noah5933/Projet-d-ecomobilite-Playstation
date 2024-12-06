@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-
 <html lang="fr">
-
 <head>
-    <title>Page d'aide</title>
+	<meta charset="UTF-8">
+	<title>Paiement - Playstation</title>
+	<link rel="stylesheet" href="../css/Connexion.css">
 </head>
-
 <body>
-
+    <h1><img src="../Image/PlayStation-Embleme.png" width="100px">Paiement</h1>
+    <form action= "PagePrincipale.html"   name="form1">
+        <ul>
+            <fieldset>
+                <li>
+                    <label>
+                      Nom : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+                      <input type="nom" id="nom" name="nom" placeholder="Nom"  title="Uniquement des noms !" required>
+                    </label>
+                  </li>
+            <li>
+                <label for="auteur_prenom">Décrivez votre problème : &nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="num" name="num" placeholder="Problème : " required>
+              </li>
+            </fieldset>
+        </ul>
+        <li class="bouton">
+            <button type="submit">Envoyez</button>
+            <input id="prodId" name="prodId" type="hidden" value="zx589q4312pm">
+    </form>
 </body>
-
-</html>
+<footer>
+    <a href="Aide_plan.html">Aide/plan du site</a>
+</footer>
