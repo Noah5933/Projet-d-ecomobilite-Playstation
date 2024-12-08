@@ -10,17 +10,3 @@ body a {
     flex-direction: column;
     margin-top: 50px;
 }
-
-header {
-    background-color: black;
-}
-
-footer {
-    background-color: #0070D1;
-}
-
-footer a {
-    margin-left: 1vh;
-    color:white; 
-}
-
