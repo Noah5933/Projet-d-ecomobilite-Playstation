@@ -1,6 +1,6 @@
-body h1 {
-    align-items:flex-end;
-
+.titre {
+    align-items:center;
+    justify-content: center;
 }
 
 form, button {
@@ -9,8 +9,9 @@ form, button {
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    border-color: red;
+    border-color: black;
     border-radius: 10%;
+    list-style: none;
 
 }
 
@@ -19,16 +20,18 @@ body {
     background-image: url("../Image/images.jpeg");
 }   
 
-footer {
-    display: flex;
-    position: absolute;
-    bottom: 1vw;
-}
-
 form {
     margin-top: 25vh;
 }
 
 fieldset {
-    border-color: red;
+    list-style: none;
+    background-color: white;
+    border-color: black;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 1vw;
 }
