@@ -1,0 +1,23 @@
+section{
+    border: 1px solid black;
+    background-color: white;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+ul li{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+
+p{
+    margin-left: 1%;
+}
+body{
+    background-image: url(../Image/images.jpeg);
+}

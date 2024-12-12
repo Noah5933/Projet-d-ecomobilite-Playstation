@@ -1,6 +1,8 @@
 .titre {
-    align-items:center;
-    justify-content: center;
+    background-color: white;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 5%;
 }
 
 form, button {
@@ -18,7 +20,15 @@ form, button {
 body {
     flex-direction: column;
     background-image: url("../Image/images.jpeg");
-}   
+}
+
+body a{
+    text-align: center;
+    margin-top: 25vh;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
 
 form {
     margin-top: 25vh;
@@ -28,6 +38,8 @@ fieldset {
     list-style: none;
     background-color: white;
     border-color: black;
+    border-radius: 10%;
+    padding: 10%;
 }
 
 footer {
