@@ -11,6 +11,43 @@ section {
     background-color:white;
 }
 
+.Chercher{
+    text-align: center;
+    border: 1px solid black;
+}
+
 body{
     background-image: url(../Image/images.jpeg);
+}
+
+.conducteur-dispo{
+    display: inline-block;
+    width: 100%;
+}
+
+.infos{
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.contacter{
+    position: absolute;
+    right: 11px;
+}
+
+.cond1{
+    display: flex;
+    border: 1px solid black;
+}
+.cond2{
+    display: flex;
+    border: 1px solid black;
+}
+.cond3{
+    display: flex;
+    border: 1px solid black;
+}
+.cond4{
+    display: flex;
+    border: 1px solid black;
 }

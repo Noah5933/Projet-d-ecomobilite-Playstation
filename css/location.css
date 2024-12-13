@@ -15,3 +15,34 @@ section{
     background-color: white;
     border: solid black 1px;
 }
+.v1{
+    display: flex;
+    border: 1px solid black;
+}
+.v2{
+    display: flex;
+    border: 1px solid black;
+}
+.v3{
+    display: flex;
+    border: 1px solid black;
+}
+.v4{
+    display: flex;
+    border: 1px solid black;
+}
+
+.infos{
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.vehicules{
+    display: inline-block;
+    width: 100%;
+}
+
+.louer{
+    position: absolute;
+    right: 11px;
+}

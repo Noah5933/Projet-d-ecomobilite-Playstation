@@ -21,7 +21,16 @@ body {
     flex-direction: column;
     background-image: url("../Image/images.jpeg");
 }
-
+.corps{
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 20%;
+    background-color: white;
+    border: 1px solid black;
+}
 body a{
     text-align: center;
     margin-top: 25vh;

@@ -5,6 +5,7 @@
 .bloc1un {
     margin-left: 2%;
     width: 500vw;
+    margin-right: 2%;
 }
 
 .bloc1deux {
@@ -20,11 +21,13 @@
 .bloc2deux {
     margin-right: 2%;
     width: 500vw;
+    margin-left: 2%;
 }
 
 .bloc3un {
     margin-left: 2%;
     width: 500vw;
+    margin-right: 2%;
 }
 
 .bloc3deux {
@@ -41,6 +44,6 @@
 }
 
 .troisiemeImage {
-    width: 50%;
+    width: 90%;
 }
 
